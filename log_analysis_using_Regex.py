@@ -4,7 +4,7 @@ import re
 import operator
 import csv
 
-
+#Need to have a log file containing info in this case"
 def read_file():
         with open("syslog.log") as log_file:
                 log_entries = log_file.readlines()
